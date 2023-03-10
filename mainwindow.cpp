@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     this->configWindow = nullptr;
-
+    this->setWindowTitle("GeoTiff Converter");
 
 }
 
